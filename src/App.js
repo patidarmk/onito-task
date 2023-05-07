@@ -3,8 +3,9 @@ import "./App.css";
 import Form from "./Components/Form";
 import DisplayData from "./Components/DisplayData";
 import { useEffect } from "react";
-require("../src/mocks");
 import { Routes, Route, Link } from "react-router-dom";
+
+require("../src/mocks");
 
 function App() {
   const [data, setData] = useState();
