@@ -59,8 +59,8 @@ const Form = ({ getData }) => {
     console.log(data);
     data.dob = age(data.dob);
     savaData(data);
-    getData();
     alert("user added successfully");
+	getData();
   };
 
   const handleReset = (e) => {
